@@ -1,0 +1,5 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+suap.ifpb.edu.br	TRUE	/	FALSE	1999999999	csrftoken	ERcjLLfc889bt9gHwgJAw73f2j2Ezjl5eqf1wucxU9tc0U81WKcqABrw09K2H4JR
+suap.ifpb.edu.br	TRUE	/	FALSE	1999999999	sessionid	xddveczjupha40ol0ota272prtb19vfb
+

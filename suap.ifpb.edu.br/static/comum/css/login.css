@@ -1,0 +1,185 @@
+/* CSS para estilizar elementos do template de login */
+
+body.login {
+    background-attachment: fixed;
+    background-color: #555;
+    background-image: url("../img/login-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center 0;
+    background-size: cover;
+}
+body.login h1 {
+    background: url("../img/logo-login.png") no-repeat center center;
+    height: 100px;
+    margin: 20px 0;
+    text-indent: -9000px;
+    width: 100%;
+}
+body.login h3 {
+    color: #999;
+    font-weight: 300;
+}
+body.login #content {
+    background: #333;
+    display: inline-block;
+    margin: 140px 15% 15px;
+    width: 70%;
+}
+body.login #content form {
+    margin: 50px 0 0;
+}
+body.login .errorlist,
+body.login .messagelist {
+    margin: 10px 0 0;
+    padding: 0 !important;
+}
+body.login .errornote,
+body.login .msg {
+    left: 0;
+    width: 100%;
+}
+body.login .form-row {
+    margin: 0 0 10px;
+}
+body.login .form-row a {
+    display: inline-block;
+    padding: 10px 0 0;
+    width: 100%;
+}
+body.login .form-row input[type="password"],
+body.login .form-row input[type="text"] {
+    background: #fff;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 120%;
+    height: 46px;
+    max-width: 100%;
+    padding: 0 5px;
+    width: 100%;
+}
+body.login label.required {
+    cursor: default;
+    font-weight: 300 !important;
+}
+body.login label.required:after {
+    content: "";
+}
+body.login .form-row input[type="password"]:active,
+body.login .form-row input[type="password"]:focus,
+body.login .form-row input[type="text"]:active,
+body.login .form-row input[type="text"]:focus {
+    border: 2px solid #5bb75b;
+}
+body.login .form-row label {
+    clear: left;
+    color: #666666 !important;
+    font-weight: normal !important;
+    line-height: 1em;
+    padding: 0 5px 0 0;
+    text-align: left !important;
+}
+body.login .login-footer {
+    margin: 5px auto 20px;
+    overflow: hidden;
+    width: 70%;
+}
+body.login .login-footer p {
+    color: #ddd;
+    font-weight: 300;
+    text-align: right;
+}
+body.login .login-footer p a {
+    color: #5bb75b;
+}
+body.login .login-form {
+    background: #eee;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+    float: left;
+    margin: -50px 0 -50px 3%;
+    padding: 60px;
+    position: relative;
+    width: 50%;
+}
+body.login .login-services {
+    float: right;
+    padding: 30px 40px 40px 40px;
+    width: 47%;
+}
+body.login .login-services h3 {
+    border: 0 none;
+    color: #aaa;
+    font-size: 200%;
+    margin: 0 0 20px;
+}
+body.login .login-services li {
+    color: #666;
+    list-style: none;
+    margin: 0 0 3px;
+}
+body.login .login-services li:last-child a {
+    border-bottom: 0 none; 
+}
+body.login .login-services li a {
+    background-color: transparent;
+    background-position: 0 center;
+    background-repeat: no-repeat;
+    background-size: 22px auto;
+    border-bottom: 1px solid #777;
+    color: #fff;
+    display: inline-block;
+    font-size: 120%;
+    font-weight: 400;
+    padding: 15px 0;
+    width: 100%;
+}
+body.login .login-services li a:hover {
+    color: #5bb75b;
+    text-decoration: none;
+}
+body.login .login-services ul {
+    padding: 0;
+}
+
+body.login ul.login-services  {
+    padding: 0;
+    width: 100%;
+}
+body.login .login-services .fa {
+    margin: 0 10px 0 0;
+}
+body.login .submit-row input[type="submit"] {
+    font-size: 120%;
+    height: 45px;
+    width: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+    body.login #content {
+        width: 90%;
+        margin: 120px 5% 15px;
+    }
+}
+@media screen and (max-width: 900px) {
+    body.login .login-form {
+        width: 60%;
+    }
+    body.login .login-services {
+        width: 37%;
+    }
+}
+@media screen and (max-width: 800px) {
+    body.login h1 {
+        background-size: cover cover;
+    }
+    body.login #content {
+        margin: 80px 5% 15px;
+    }
+    body.login .login-form,
+    body.login .login-services {
+        width: 94%;
+    }
+    body.login .login-services {
+        margin: 60px 3% 0;
+    }
+}
